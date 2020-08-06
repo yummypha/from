@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <title>ใบสั่ง</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <center>
+  <body class="bg-light">
+    <div class="container">
+  <div class="py-5 text-center">
+    <img src="http://www.siamganesh.com/all_gods/new/garuda/garuda3.jpg" alt="" :width="10 px" :height="10 px">
+        <h2>ใบสั่งเจ้าพนักงานจราจรหรือพนักงานเจ้าหน้าที่</h2>
+    <p class="lead">Traffic Ticket issued by Traffic Officers oompetent Officials</p>
+  </div>
+
+    <div class="container">
+      
+      <form class="needs-validation">
+       <b>เลขที่ใบสั่ง <input type="text" id="fname" name="Vehicle registration" style="border: none; border-bottom-style:groove;"></b>
+
+       <div class="mb-3">
+        <label>ด้วยผู้ขับขี่</label> &nbsp;
+        <input type="radio" name="drive" required /> รถจักรยานยนต์ &nbsp;
+        <input type="radio" name="drive" required /> รถยนต์นั่งส่วนบุคคล &nbsp;
+        <input type="radio" name="drive" required /> รถประเภทอื่น &nbsp;
+        <input type="radio" name="drive" required /> รถขนส่ง &nbsp;
+       </div>
+       <b>เลขที่ <input type="text" id="fname" name="Vehicle registration" style="border: none; border-bottom-style:groove;"></b><br><br>
+        <div class="row">
+            <label>ยี่ห้อ :<input type="text" id="fname" name="Vehicle registration" size="90" style="border: none; border-bottom-style:groove;"></label>
+            <div class="mb-3">
+             <br><input type="radio" name="drive" required /> กรุงเทพ &nbsp;
+              <input type="radio" name="drive" required /> จังหวัด <input type="text" id="fname" name="Vehicle registration" style="border: none; border-bottom-style:groove;"><br>
+             </div>
+          </div>  
+        </div>
+
+        <div class="mb-3">
+          <label>ป้ายทะเบียนสี</label> &nbsp;
+          <input type="radio" name="drive" required /> ขาว &nbsp;
+          <input type="radio" name="drive" required /> เหลือง &nbsp;
+          <input type="radio" name="drive" required /> เขียว &nbsp;
+          <input type="radio" name="drive" required /> แดง &nbsp;
+          <input type="radio" name="drive" required /> ฟ้า &nbsp;
+          <input type="radio" name="drive" required /> อื่นๆ : <input type="text" id="fname" name="Vehicle registration" style="border: none; border-bottom-style:groove;"><br>
+         </div>
+
+          <div class="mb-3">
+          <p>การกระทำผิด</p>
+          <label>๑. ขับรถ</label> <br>
+          <input type="checkbox" name="drive" required /> ฝ่าฝืนสัญญาณไฟจราจรสีแดง &nbsp;
+          <input type="checkbox" name="drive" required /> ฝ่าฝืนเครื่องหมายบนพื้นทาง &nbsp;
+          <input type="checkbox" name="drive" required /> ฝ่าฝืนเครื่องหมายจราจรห้าม : <input type="text" id="fname" name="Vehicle registration" style="border: none; border-bottom-style:groove;"><br>
+          <input type="checkbox" name="drive" required /> ในลักษณะกีดขวางการจราจร &nbsp;
+          <input type="checkbox" name="drive" required /> ไม่ใกล้ขอบทางเดินรถด้านซ้าย &nbsp;
+          <input type="checkbox" name="drive" required /> แซงเมื่อเข้าที่คับขัน
+          <br><br>
+          <label>๒. หยุดรถ</label> <br>
+          <input type="checkbox" name="drive" required /> ในลักษณะกีดขวางการจราจร &nbsp;
+          <input type="checkbox" name="drive" required /> ในเขตห้ามหยุด &nbsp;
+          <input type="checkbox" name="drive" required /> รอสัญญาณล้ำแนว &nbsp;
+          <br><br>
+          <label>๓. จอดรถไว้</label> <br>
+          <input type="checkbox" name="drive" required /> ในลักษณะกีดขวางการจราจร &nbsp;
+          <input type="checkbox" name="drive" required /> บนทางเท้า &nbsp;
+          <input type="checkbox" name="drive" required /> ในเขตห้ามจอด : <input type="text" id="fname" name="Vehicle registration" style="border: none; border-bottom-style:groove;"><br>
+          <input type="checkbox" name="drive" required /> ไม่ชิดขอบทางด้สนซ้าย &nbsp;
+          <input type="checkbox" name="drive" required /> ไม่ขนานชิดขอบทาง &nbsp;
+          <input type="checkbox" name="drive" required /> ซ้อนคัน
+         </div>
+         <br>
+         <label>๔. อื่นๆ : <input type="text" id="fname" name="Vehicle registration" size="100" style="border: none; border-bottom-style:groove;"></label>
+         <br><br>
+         <center>
+         <label>เมื่อวันที่ <input type="text" id="fname" name="Vehicle registration" size="1" style="border: none; border-bottom-style:groove;">
+          เหตุเกิดที่ ตรอก/ซอย <input type="text" id="fname" name="Vehicle registration" size="5" style="border: none; border-bottom-style:groove;">
+          ถนน <input type="text" id="fname" name="Vehicle registration" size="5" style="border: none; border-bottom-style:groove;">
+          ตำบล/แขวง <input type="text" id="fname" name="Vehicle registration" size="5" style="border: none; border-bottom-style:groove;">
+          อำเภอ/เขต <input type="text" id="fname" name="Vehicle registration" size="5" style="border: none; border-bottom-style:groove;">
+          กรุงเทพมหานคร <input type="text" id="fname" name="Vehicle registration" size="5" style="border: none; border-bottom-style:groove;">
+          จังหวัด <input type="text" id="fname" name="Vehicle registration" size="5" style="border: none; border-bottom-style:groove;">
+          เดือน <input type="text" id="fname" name="Vehicle registration" size="5" style="border: none; border-bottom-style:groove;">
+          พ.ศ. <input type="text" id="fname" name="Vehicle registration" size="2" style="border: none; border-bottom-style:groove;">
+          เวลา <input type="text" id="fname" name="Vehicle registration" size="2" style="border: none; border-bottom-style:groove;"> น.
+         </label>
+        </center>
+
+
+        <p>ลงชื่อผู้ออกใบสั่ง</p>
+        <label>ยศ <input type="text" id="fname" name="Vehicle registration" size="5" style="border: none; border-bottom-style:groove;"></label>
+        <label>ชื่อ <input type="text" id="fname" name="Vehicle registration" size="20" style="border: none; border-bottom-style:groove;"></label>
+        <label>ชื่อสกุล <input type="text" id="fname" name="Vehicle registration" size="20" style="border: none; border-bottom-style:groove;"></label>
+        <p></p><input type="radio" name="drive" required /> เจ้าพนักงานจราจร &nbsp;
+        <input type="radio" name="drive" required /> พนักงานเจ้าหน้าที่ รหัส <input type="text" id="fname" name="Vehicle registration" size="10" style="border: none; border-bottom-style:groove;">
+
+        <div class="py-5 text-center">
+              <b>ใบรับแทนใบอนุญาตขับขี่</b>
+              <p>Substityte of the Driver's License</p>
+        </div>
+        <label>ชื่อผู้ขับขี่ <input type="text" id="fname" name="Vehicle registration" size="30" style="border: none; border-bottom-style:groove;"></label>
+        <label>เลขประจำตัวประชาชน <input type="text" id="fname" name="Vehicle registration" size="15" style="border: none; border-bottom-style:groove;"></label>
+        <br>
+        <label>ใบอนุญาตขับขี่เลขที่/ฉบับที่ <input type="text" id="fname" name="Vehicle registration" size="15" style="border: none; border-bottom-style:groove;"></label>
+        <label>วันอนุญาต <input type="text" id="fname" name="Vehicle registration" size="15" style="border: none; border-bottom-style:groove;"></label>
+        <br>
+        <label>ออกให้โดยนายทะเบียน &nbsp;
+          <input type="radio" name="drive" required /> สระบุรี &nbsp; สาขา<input type="text" id="fname" name="Vehicle registration" size="10" style="border: none; border-bottom-style:groove;">&nbsp;
+          <input type="radio" name="drive" required /> จังหวัด <input type="text" id="fname" name="Vehicle registration" size="10" style="border: none; border-bottom-style:groove;">
+          สาขา<input type="text" id="fname" name="Vehicle registration" size="10" style="border: none; border-bottom-style:groove;">
+        </label>
+
+        <div class="mb-3">
+          <label>ใบขับขี่</label> &nbsp;
+          <input type="radio" name="drive" required /> รถจักรยายนต์ &nbsp;
+          <input type="radio" name="drive" required /> รถสามล้อ &nbsp;
+          <input type="radio" name="drive" required /> รถยนต์ &nbsp;
+          <input type="radio" name="drive" required /> อื่นๆ : <input type="text" id="fname" name="Vehicle registration" style="border: none; border-bottom-style:groove;"><br>
+         </div>
+
+         <div class="mb-3">
+          <label>ชนิด</label> &nbsp;
+          <input type="radio" name="drive" required /> ชั่วคราว &nbsp;
+          <input type="radio" name="drive" required /> ตลอดชีพ &nbsp;
+          <input type="radio" name="drive" required /> สาธารณะ &nbsp;
+          <input type="radio" name="drive" required /> บุคคล ชนิดที่ &nbsp;
+          <input type="radio" name="drive" required /> ทุกประเภท ชนิดที่ &nbsp;
+          <input type="radio" name="drive" required /> ระหว่างประเทศ <br>
+         </div>
+
+         <p>ลงชื่อผู้ออกใบสั่ง</p>
+        <label>ยศ <input type="text" id="fname" name="Vehicle registration" size="5" style="border: none; border-bottom-style:groove;"></label>
+        <label>ชื่อ <input type="text" id="fname" name="Vehicle registration" size="20" style="border: none; border-bottom-style:groove;"></label>
+        <label>ชื่อสกุล <input type="text" id="fname" name="Vehicle registration" size="20" style="border: none; border-bottom-style:groove;"></label>
+        <p></p><input type="radio" name="drive" required /> เจ้าพนักงานจราจร &nbsp;
+        <input type="radio" name="drive" required /> พนักงานเจ้าหน้าที่ รหัส <input type="text" id="fname" name="Vehicle registration" size="10" style="border: none; border-bottom-style:groove;">
+
+        <center>
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg " type="submit">ตกลง</button>
+        </center>
+        <br>
+      </form>
+    </div>
+  </div>
+
+</div>
+</center>
+</body>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script></body>
+</html>
